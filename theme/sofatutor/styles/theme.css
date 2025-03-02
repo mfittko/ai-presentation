@@ -1,0 +1,308 @@
+:root {
+  /* Sofatutor Brand Colors */
+  --st-green: #99CC00;
+  --st-dark-green: #669900;
+  --st-black: #333333;
+
+  /* Sofatutor Foundation Palette */
+  --st-blue: #0088B5;
+  --st-indigo: #004CB5;
+  --st-purple: #7900B5;
+  --st-raspberry: #C10070;
+  --st-red: #E30000;
+  --st-deep-orange: #E35B00;
+  --st-amber: #E3B500;
+  --st-yellow: #FBCD00;
+  --st-lime: #E3E300;
+  --st-white: #FFFFFF;
+  --st-gray-light: #F8F8F8;
+  --st-gray-medium: #E6E6E5;
+  --st-gray: #999999;
+  --st-gray-dark: #666666;
+  --st-secondary: #CCCCCC;
+  --st-warning: #EEFFAA;
+  --st-hover: #0099FF;
+
+  /* Green Tints and Shades */
+  --st-green-l1: #ADD633;
+  --st-green-l2: #C2E066;
+  --st-green-l3: #D6EB99;
+  --st-green-l4: #F5FAE6;
+  --st-green-d1: #7AA300;
+  --st-green-d2: #6B8F00;
+  --st-green-d3: #5C7A00;
+  --st-green-d4: #4D6600;
+
+  /* Slidev Theme Variables */
+  --slidev-theme-primary: var(--st-green);
+  --slidev-theme-secondary: var(--st-blue);
+  --slidev-theme-background: var(--st-white);
+  --slidev-theme-foreground: var(--st-black);
+  
+  /* Typography */
+  --slidev-theme-font-family-default: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --slidev-theme-font-family-heading: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  --slidev-theme-font-family-mono: 'Fira Code', monospace;
+}
+
+/* Global Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--slidev-theme-font-family-default);
+  color: var(--st-black);
+  background-color: var(--st-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--slidev-theme-font-family-heading);
+  font-weight: 300; /* Open Sans Light */
+  color: var(--st-black);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--st-black);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--st-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--st-hover);
+  text-decoration: underline;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--st-gray-dark);
+  border-left: 4px solid var(--st-green);
+  padding-left: 1rem;
+  margin-left: 0;
+}
+
+code {
+  font-family: var(--slidev-theme-font-family-mono);
+  font-size: 14px;
+  background-color: var(--st-gray-light);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+/* Slide Styles */
+.slidev-layout {
+  padding: 2rem;
+  background-color: var(--st-white);
+  color: var(--st-black);
+}
+
+.slidev-layout.cover {
+  background-color: var(--st-green);
+  color: var(--st-white);
+}
+
+.slidev-layout.cover h1 {
+  color: var(--st-white);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.slidev-layout.cover p {
+  color: var(--st-white);
+  opacity: 0.9;
+}
+
+.slidev-layout.section {
+  background-color: var(--st-green);
+  color: var(--st-white);
+  text-align: center;
+}
+
+.slidev-layout.section h1 {
+  color: var(--st-white);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Lists */
+ul, ol {
+  line-height: 1.8;
+  color: var(--st-black);
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+button, .button {
+  background-color: var(--st-blue);
+  color: var(--st-white);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: var(--st-hover);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th {
+  background-color: var(--st-green);
+  color: var(--st-white);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem;
+}
+
+td {
+  border-bottom: 1px solid var(--st-gray-medium);
+  padding: 0.75rem;
+  color: var(--st-black);
+}
+
+tr:nth-child(even) {
+  background-color: var(--st-gray-light);
+}
+
+/* Code Blocks */
+pre {
+  background-color: var(--st-gray-light);
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+/* Callouts */
+.callout {
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.callout.success {
+  background-color: var(--st-green-l4);
+  border-left: 4px solid var(--st-green);
+}
+
+.callout.warning {
+  background-color: var(--st-warning);
+  border-left: 4px solid var(--st-amber);
+}
+
+.callout.alert {
+  background-color: #FFEBEE;
+  border-left: 4px solid var(--st-red);
+}
+
+/* Progress Bar */
+.slidev-progress-container {
+  height: 8px;
+}
+
+.slidev-progress-container .slidev-progress-bar {
+  background-color: var(--st-green);
+}
+
+/* Strong and emphasis */
+strong {
+  font-weight: 600;
+  color: var(--st-black);
+}
+
+em {
+  font-style: italic;
+  color: var(--st-black);
+}
+
+/* Default layout specific styles */
+.slidev-layout.default {
+  background-color: var(--st-white);
+  color: var(--st-black);
+}
+
+.slidev-layout.default h1 {
+  color: var(--st-black);
+  border-bottom: 2px solid var(--st-green);
+  padding-bottom: 0.5rem;
+}
+
+/* Improve code highlighting */
+.slidev-code {
+  background-color: var(--st-gray-light) !important;
+  border-radius: 4px;
+}
+
+/* Improve slide transitions */
+.slidev-vclick-target {
+  transition: all 0.3s ease;
+}
+
+/* Ensure all text is readable */
+.slidev-layout * {
+  color: var(--st-black);
+}
+
+.slidev-layout.cover *,
+.slidev-layout.section * {
+  color: var(--st-white);
+}
+
+/* Ensure links are visible */
+.slidev-layout a {
+  color: var(--st-blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+} 
