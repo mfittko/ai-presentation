@@ -2,7 +2,7 @@
 title: The Future of Web Development in the Age of Agentic AI
 theme: sofatutor
 layout: cover
-background: https://source.unsplash.com/1600x900/?tech,ai
+background: /theme/sofatutor/assets/illustrations/monster.svg
 contextMenu: false
 highlighter: shiki
 lineNumbers: false
@@ -14,8 +14,9 @@ info: |
   The End of Coding as We Know It
 ---
 
-# The Future of Web Development  
-## in the Age of Agentic AI  
+# The Future of Web Development
+
+## in the Age of Agentic AI
 
 The End of Building Web Apps as We Know It
 
@@ -24,8 +25,8 @@ layout: center
 class: text-center
 ---
 
-# What's Ahead  
-30 minutes: Vision & Evolution  
+## What's Ahead
+30 minutes: Evolution and Acceleration  
 15 minutes: Live Demo  
 
 Let's explore the rapid shift in web development and build two ed-tech apps together!  
@@ -34,12 +35,13 @@ Let's explore the rapid shift in web development and build two ed-tech apps toge
 layout: two-cols
 ---
 
-# Introduction  
-## A New Era of Creation  
+## Introduction  
+
+### A New Era of Creation  
 
 Imagine building a fully functional web app in *hours*, not weeks—production-ready in *days*, not months.  
 
-This isn't a dream—it's where web development is heading, powered by agentic AI.  
+This isn't a dream — it's where web development is heading, powered by agentic AI.  
 
 ::right::
 
@@ -50,12 +52,16 @@ This isn't a dream—it's where web development is heading, powered by agentic A
 - **Why It Matters**: Speed, accessibility, and freedom from old burdens  
 
 ---
+layout: intro
+---
 
-# Evolution & Acceleration of Web Development
+## Evolution & Acceleration of Web Development
+
+### From prototype to production
 
 - **1990s**: Static HTML/CSS—manual, slow (Months)
 - **2000s**: JS, PHP, early frameworks—dynamic but labor-intensive
-- **2010s**: Rails, React, Angular, DevOps—modular, still complex (Weeks)
+- **2010s**: Monolithic Frameworks (Rails, Django, Laravel, etc.) - still complex (Weeks)
 - **2020s**: Low-code + AI (Copilot)—automation begins (Days)
 - **2025+**: Agentic AI—fully autonomous creation (Hours)
 
@@ -64,25 +70,88 @@ This isn't a dream—it's where web development is heading, powered by agentic A
 > "From months to hours—web development accelerates. AI is the next leap."
 
 ---
-layout: image-right
-image: https://source.unsplash.com/800x600/?coding,web
+layout: two-cols
 ---
 
-# Current State  
-## AI-Assisted Development  
+## Developer Assistance Evolution
 
+- **1990s**: Books, Documentation—physical manuals and reference guides
+- **2000s**: Google, Forums—searchable knowledge, community support
+- **2010s**: Stack Overflow, GitHub—crowdsourced solutions, code sharing
+- **2020s**: ChatGPT, Copilot—contextual assistance, code completion
+- **2025+**: Autonomous Agents—proactive problem-solving, full-cycle assistance
+
+::right::
+
+![Developer assistance evolution](/theme/sofatutor/assets/illustrations/raccoon.svg)
+
+> "From reading manuals to collaborating with AI agents—the developer's toolkit transforms."
+
+---
+layout: two-cols
+---
+
+## Current State  
+
+### AI-Assisted Development  
+
+- **AI-Chatbots**:  
+  - Claude, Grok, Gemini, ChatGPT, etc.
 - **Rapid Prototyping Tools**:  
   - *Bolt.new*: Natural language to full-stack apps  
-  - *Lovable.dev*: Lightweight, design-focused prototypes  
-- **Agent-Enhanced IDEs**:  
-  - *VS Code + Plugins*: Copilot, Cline for automation  
-  - *Cursor*: Real-time code suggestions  
+  - *Lovable.dev*: Lightweight, design-focused prototypes
 
-"These tools slash dev time—prototypes in hours, not weeks."  
+::right::
+
+- **Agent-Enhanced IDEs**:  
+  - *VS Code + Plugins*: Copilot, Cline with Claude and Computer Use for visual debugging
+    - Code Insiders (early access program for VS Code) for Copilot Agent
+  - *Cursor*: Composer mode for agentic development and debugging (paid)
+  - *GitHub Copilot*: Git commit messages, code completions, PR reviews, chat, edit mode, etc.
 
 ---
 
-# The Paradigm Shift: Agentic AI
+## Web as the Universal Runtime
+
+- **Universal Accessibility**: Deploy once, run everywhere—desktop, mobile, tablets
+- **Rapid Iteration Cycle**: Instant updates without app store approvals
+- **WebAssembly Convergence**: Near-native performance for complex applications
+- **JavaScript Ecosystem**: World's largest package ecosystem (npm) with 2M+ packages
+- **AI Tool Integration**: Bolt, Playable, and other AI tools generate web-first solutions
+- **Zero-Install Experience**: No downloads required for users—instant engagement
+- **Progressive Enhancement**: Start simple, scale complexity as needed
+
+![Web technologies](/theme/sofatutor/assets/illustrations/monster.svg)
+
+---
+layout: two-cols
+---
+
+## The Current Paradigm Shift
+
+- **From Writing Code to Describing Intent**
+  - Code as an implementation detail
+  - Shifting from "how" to "what" and "why"
+
+- **The Democratization of Creation**
+  - Everyone becomes a creator
+
+- **The Death of Frameworks**
+  - Rise of composable, AI-assembled architectures
+
+::right::
+- **The Future of Web Development**:
+  - **AI-Powered Prototyping**: Generate full-stack apps from natural language
+  - **Web-First Solutions**: No need to choose between frameworks or platforms
+  - **Progressive Enhancement**: Iterate fast and safely using AI tools in combination with CI/CD
+  - **Choice of tools**: Use the tools that are proven to work best for the task at hand
+  - **Efficient tool usage**: Avoid common pitfalls by using system prompts and ensuring coding best practices
+
+---
+layout: two-cols
+---
+
+## The Paradigm Shift: Agentic AI
 
 - **From Writing Code to Describing Intent**
   - Code as an implementation detail
@@ -102,48 +171,98 @@ image: https://source.unsplash.com/800x600/?coding,web
 layout: quote
 ---
 
-# Benefits of This Future  
+## Benefits of This Future  
 
 "Entire apps in hours. Production-ready in days. Accessible to all."  
 
 - Speed  
 - Scalability  
-- Cost savings  
-
-Imagine what this means for education: tools built fast, used everywhere.  
+- Cost savings
+- Freedom from frameworks
+- Democratization of creation
+- More time for what really matters
 
 ---
 
-# Challenges & Best Practices  
-## Keeping AI in Check  
+## Economic Impact
+
+- Development cycles compressed: Do more with less
+- Quality assurance evolution: From manual to fully automated
+- Shift from scarcity to abundance: More apps, more competition
+- Value shift from coding to problem-solving: Focus on what matters
+- Anyone can create complex apps, thus it is getting harder to stand out
+
+![Economic impact](/theme/sofatutor/assets/illustrations/penguin.svg)
+
+---
+layout: statement
+---
+
+## "The limiting factor shifts from technical implementation to imagination."
+
+---
+
+## Challenges & Best Practices  
+
+### Keeping AI in Check  
 
 - **Quality**: Large context windows (e.g., Lovable) risk hallucinations  
   - *Solution*: Early CI with Playwright testing  
 - **Cost**: Big contexts inflate inference costs  
   - *Solution*: DRY, Single Responsibility—keep it lean  
+- **Efficiency**:
+  - *Solution*: Refactor early and often, use the right tool for debugging
 
-"AI speeds us up; timeless practices keep us grounded."  
+> "AI speeds us up; timeless practices keep us grounded."  
 
 ---
 layout: two-cols
 ---
 
-# Enhancing AI Workflows  
-## Smarter Systems  
+## Enhancing AI Workflows  
 
-- **System Prompts**:  
-  - Poor prompt: "Add a timeout" → anti-pattern  
-  - Better: "Wait for element X" → reliable tests  
+### Smarter Systems  
+
+- **System Prompts**:
+  - "UI testing: Wait for element X instead of adding timeouts"
+  - "Code refactoring: Follow DRY and Single Responsibility principles"
 - **Cursor Composer**:  
   - Uses screenshots to validate tests and fix issues  
 
 ::right::
 
-> "Precision in prompts avoids chaos in code."  
+> "Precision in prompts avoids spaghetti code."  
 
 ---
 
-# Vision for the Near Future (2025-2030)
+## Continuous Integration for AI-Generated Projects
+
+- Trunk based vs feature branches
+- Early automated ui-testing with Playwright
+- Screenshot-based debugging with Cursor Composer
+- Continuous integration with GitHub Actions or CircleCI
+
+---
+
+## Key Technologies Enabling This Future
+
+- <strong>Large Language Models (LLMs)</strong>
+  - Specialized for code generation and understanding
+  - Trained on vast repositories of code and documentation
+
+- <strong>Autonomous Agents</strong>
+  - Self-directed problem solving
+  - Ability to break down complex tasks
+
+- <strong>Improved Tooling Ecosystem</strong>
+  - Better integration with existing development workflows
+  - Specialized AI tools for specific domains
+
+![AI-powered development](/theme/sofatutor/assets/illustrations/raccoon.svg)
+
+---
+
+## Vision for the Near Future (2025-2030)
 
 - **Conversation-to-Production Pipeline**
   - Verbal descriptions to production code
@@ -158,54 +277,77 @@ layout: two-cols
 "Apps built in hours, production-ready in days—commonplace."
 
 ---
+
+## Case Study: Education Sector Transformation
+
+- AI-driven rapid iteration
+- Educators as creators
+- AI-powered content generation
+
+![Education transformation](/theme/sofatutor/assets/illustrations/raccoon.svg)
+
+---
 layout: section
 ---
 
-# Live Demo  
-## Agentic Workflows in Action  
+## Live Demo  
+
+### Agentic Workflows in Action  
 
 15 minutes to build two ed-tech apps live!  
-
----
-
-# Demo Setup  
-## Tools & Goals  
-
-- **Tools**:  
-  - *Bolt.new*: Base prototypes  
-  - *Cursor*: Enhancements  
-  - *Cline*: Automation  
-  - *Playwright*: Testing  
-- **Apps**:  
-  1. Quiz tool with timer  
-  2. Real-time note-taking app  
-
-"From idea to reality—fast."  
 
 ---
 layout: two-cols
 ---
 
-# Quiz App  
-## Building with Bolt & Cursor  
+## Demo Setup  
 
-1. *Bolt.new*: "A quiz app with multiple-choice and scores"  
-2. Preview: Test it live  
-3. *Cursor*: Add a 30-second timer  
-4. *Playwright*: Verify timer works—no hallucinations  
+### Tools & Goals  
+
+
+- **Tools**:  
+  - *Bolt.new/Playable.dev*: Base prototypes  
+  - *Cursor*: Enhancements  
+  - *Cline*: Automation  
+  - *Playwright/CircleCI*: Testing and CI  
+
+- **Apps**:  
+  1. Geometry Visualiser  
+  2. Flashcards App  
 
 ::right::
 
-> "Functional in minutes—imagine this in your classroom!"  
+> "From idea to reality — rapidly."  
 
 ---
-# Note-Taking App  
-## Collaborative & Smart  
+layout: two-cols
+---
 
-1. *Bolt.new*: "Real-time collaborative notes"  
-2. Preview: Sync live  
-3. *Cursor + Cline*: Add comments feature  
-4. *Cursor Composer*: Use screenshots to validate fixes  
+## Geometry Visualiser  
+
+### Building with Lovable & Cursor  
+
+- *Playable.dev*: "Create a web app that helps students visualize geometric concepts through interactive manipulation." 
+- *Preview*: Test it live on https://geo-playground.lovable.app
+- *Cline*: Find and fix bugs in prototype
+- *Cursor*:
+  - Add grid feature, fullscreen mode, latex formulas, translations etc.
+
+::right::
+
+> "Fully functional in hours — imagine this as a standalone mobile app or integrated in sofatutor.com!"  
+
+---
+
+## Flashcards App  
+
+- *Claude AI*: "Help me conceptualizing a web app that helps students learn by creating flashcards."
+- *Playable.dev*: Use prompt from Claude to create a prototype. Upload to GitHub after creation.
+- *Cursor (composer and cline)*:
+  - Retrieve code from GitHub
+  - Cline: Add playwright tests using Claude Computer Use and fix bugs
+  - Add features like elevenlabs TTS and openai to generate flashcards.
+  - Safely iterate using UI testing, use screenshots for debugging  
 
 "Let's add a feature together—what do you think?"  
 
@@ -213,7 +355,7 @@ layout: two-cols
 layout: center
 ---
 
-# Wrap-Up  
+## Wrap-Up  
 ## The Future Is Now  
 
 - Agentic AI + web runtimes = rapid, accessible creation  
@@ -222,85 +364,10 @@ layout: center
 **Questions? Ideas? Let's discuss!**
 
 ---
-layout: intro
----
-
-# The Great Acceleration
-
-- **1990s**: Months (Manual HTML/CSS/JS)
-- **2010s**: Weeks (Frameworks & Libraries)
-- **2020s**: Days (AI Assistance)
-- **2025+**: Hours (Agentic AI)
-
-"From months to hours—web development accelerates."
-
----
-layout: two-cols
----
-
-# The Current Paradigm Shift
-
-- **From Writing Code to Describing Intent**
-  - Code as an implementation detail
-  - Shifting from "how" to "what" and "why"
-
-- **The Democratization of Creation**
-  - Everyone becomes a creator
-
-- **The Death of Frameworks**
-  - Rise of composable, AI-assembled architectures
-
-::right::
-
-![Intent-first development](https://source.unsplash.com/collection/94734566/800x600)
-
----
-
-# Web as the Universal Runtime
-
-- Browser technology as the universal platform
-- WebAssembly convergence
-- JavaScript/TypeScript as lingua franca
-
-![Web technologies](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png)
-
----
-
-# Economic Impact
-
-- Development cycles compressed
-- Quality assurance evolution
-- Shift from scarcity to abundance
-- Value shift from coding to problem-solving
-
-![Economic impact](https://source.unsplash.com/random/800x600/?chart)
-
----
-layout: statement
----
-
-# "The limiting factor shifts from technical implementation to imagination."
-
----
-
-# Case Study: Education Sector Transformation
-
-- AI-driven rapid iteration
-- Educators as creators
-
-![Education transformation](https://source.unsplash.com/random/800x600/?classroom,technology)
-
----
-
-# Continuous Integration for AI-Generated Projects
-
-- Early testing with Playwright
-- Screenshot-based validation
-
----
 layout: end
 ---
 
-# Thank You
+## Thank You
 
+::subtitle::
 Questions & Discussion
